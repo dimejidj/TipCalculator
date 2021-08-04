@@ -1,0 +1,27 @@
+<div class="bigbody">
+  <form action="#" id="calcdetails">
+    <div class="inputbill">
+      <label for="tbill"> What was your total bill?</label><br />
+      <input type="number" id="tbill" placeholder="Total Bill in Pounds£..." step="0.01" min="0" required />
+    </div>
+    <div class="inputbill">
+      <label for="tipbill">What percentage of the total bill do you want to tip?</label></br>
+      <input type="number" id="tipbill" placeholder="Tip Percentage..." min="0" step="1" required />
+    </div>
+    <div class="inputbill">
+      <label for="numofpeople">Number of people?</label></br><input type="number" id="numofpeople" placeholder="Number of people" min="0" step="1" required />
+    </div>
+    <div id="buttons">
+      <div>
+        <input type="button" name="totalBill" class="totalbill" value="Total Bill" id="billsubmit" required />
+      </div>
+      <div>
+        <input type="button" name="reset" class="totalbill" value="Reset" id="reset-btn" />
+      </div>
+    </div>
+    <div id="showfbill">
+      <h4>Your Total Personal Bill is</h4>
+      <p class="showbill"></p>
+    </div>
+  </form>
+</div>
